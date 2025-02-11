@@ -1,9 +1,9 @@
 const config = {
-    appWriteUrl: String(process.env.REACT_APP_APPWRITE_URL),
-    appWriteProjectId: String(process.env.REACT_APP_APPWRITE_PROJECT_ID),
-    appWriteDatabaseId: String(process.env.REACT_APP_APPWRITE_DATABASE_ID),
-    appWriteCollectionId: String(process.env.REACT_APP_APPWRITE_COLLECTION_ID),
-    appWriteBucket: String(process.env.REACT_APP_APPWRITE_BUCKET_ID),
+    appwriteUrl: String(process.env.REACT_APP_APPWRITE_URL),
+    appwriteProjectId: String(process.env.REACT_APP_APPWRITE_PROJECT_ID),
+    appwriteDatabaseId: String(process.env.REACT_APP_APPWRITE_DATABASE_ID),
+    appwriteCollectionId: String(process.env.REACT_APP_APPWRITE_COLLECTION_ID),
+    appwriteBucket: String(process.env.REACT_APP_APPWRITE_BUCKET_ID),
 }
 
 export default config
