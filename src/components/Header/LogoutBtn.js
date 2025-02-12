@@ -9,8 +9,11 @@ function LogoutBtn() {
   const dispatch = useDispatch()
   const logoutHandler = () => {
     authService.logout().then(() => {
-      navigate("/login")
       dispatch(logout())
+
+      setTimeout(() => {
+        navigate("/")
+      }, 1000);
     })
   }
   return (

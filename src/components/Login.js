@@ -29,7 +29,7 @@ function Login() {
 
     return (
         <div
-            className='flex items-center justify-center w-full p-10'
+            className='flex items-center justify-center w-full h-screen p-10'
         >
             <div className={`mx-auto w-full max-w-lg bg-indigo-200 rounded-xl p-10 border border-black/10`}>
                 <div className="mb-2 flex justify-center bg-indigo-600 rounded-full p-2">
